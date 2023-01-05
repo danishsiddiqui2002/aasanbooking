@@ -12,9 +12,10 @@ body {
   margin: auto;
   max-width: 1920px;
   font: 300 14px/24px;
-  font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI",
+  font-family: 
+/*   font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
     
 }
 
@@ -872,7 +873,7 @@ header .bg-image {
   align-items: center;
   margin: 8% auto;
   padding: 5% auto;
-  text-align: center;
+  text-align: justify;
 }
 
 .why-chose-us-image-section {
@@ -915,6 +916,7 @@ header .bg-image {
 
 .why-chose-us-title {
   font-size: 2rem;
+  text-align:center;
 }
 
 .why-chose-us-description {
@@ -923,6 +925,7 @@ header .bg-image {
   color: var(--gray);
   margin: 15px auto 25px auto;
   padding-right: 40px;
+  padding-left: 20px;
 }
 
 .feature {
@@ -1445,7 +1448,7 @@ footer {
 }
 
 .footer-part h3 {
-  font-size: 10px;
+  font-size: 20px;
   width: 100%;
   text-align: center;
   margin-top: 30%;
