@@ -868,7 +868,6 @@ header .bg-image {
   min-height: 400px;
   height: auto;
   display: flex;
-
   justify-content: space-evenly;
   align-items: center;
   margin: 8% auto;
@@ -916,7 +915,8 @@ header .bg-image {
 
 .why-chose-us-title {
   font-size: 2rem;
-  text-align:center;
+  padding-left:20%;
+  
 }
 
 .why-chose-us-description {
