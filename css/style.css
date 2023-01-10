@@ -1638,6 +1638,24 @@ q {
   }
 }
 
+/* our team tittle */
+.ourteam-title {
+  color: var(--blue);
+  font-size: 2.5rem;
+  position: relative;
+}
+
+.ourteam-title::after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  content: "";
+  border-top: 5px solid var(--orange);
+  width: 100%;
+  border-radius: 100%;
+  transition: all 2s;
+}
+
 /* card section about us Start */
 /* card section about us Start */
 
